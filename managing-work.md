@@ -12,58 +12,58 @@
 
 ## ServiceNow Tickets(triaged twice per day)
 ### MyHubbell Tickets
-    Development tickets and operation support tickets stay in the Portal Queue
+Development tickets and operation support tickets stay in the Portal Queue
 ### All other tickets
-    * Routed to Digital Application Development Queue
+* Routed to Digital Application Development Queue
 #### Triage Process
-    * Operational Support Tickets(transitioning to issues queue in near future)
-        * Create User Story in VSTS(if Hybris under operationial support feature, corresponding Epci otherwise no parent)
-            * Tag User Story with INCNumber
-            * Tag User Story with Application 
-            * Prioritize based on [SLA](SLA.md) criteria 
-            * Assign VSTS User Story to Iteration/Team/Team Manager
-            * Enter VSTS ticket number in ServiceNow Flex Field 4
-            * Change ServiceNow ticket status to Work Started            
-    * Defects
-        * Create Bug in VSTS(if Hybris under operationial support feature, corresponding Epic, otherwise no parent)
-            * Tag Bug with INCNumber
-            * Tag Bug with Application 
-            * Prioritize based on [SLA](SLA.md) criteria 
-            * Assign VSTS Bug to Iteration/Team/Team Manager if required by SLA
-            * Enter VSTS ticket number in ServiceNow Flex Field 4
-            * Change ServiceNow ticket status to Work Started  
-    * Enhancements
-        * If enhancement requires more than 40hrs of development time, URF required, and Business Case Council approval required
-            * Request URF, attach to ticket assign to Jason Bouchard for review and submittal to BC council
-            * Once approved, VSTS Epic will be created from ServiceNow ticket
-        * If enhancement is less than 40hrs
-            * Create Feature, including acceptance criteria("definition of done")
-            * Tag Feature with ServiceNow ticket Number
-            * Tag Feature with Application
-            * If Feature part of existing Epic, link to parent Epic
-            * Enter VSTS ticket number in ServiceNow Flex Field 4
-            * Change SerivceNow ticket status to Work Started
+* Operational Support Tickets(transitioning to issues queue in near future)
+    * Create User Story in VSTS(if Hybris under operationial support feature, corresponding Epci otherwise no parent)
+        * Tag User Story with INCNumber
+        * Tag User Story with Application 
+        * Prioritize based on [SLA](SLA.md) criteria 
+        * Assign VSTS User Story to Iteration/Team/Team Manager
+        * Enter VSTS ticket number in ServiceNow Flex Field 4
+        * Change ServiceNow ticket status to Work Started            
+* Defects
+    * Create Bug in VSTS(if Hybris under operationial support feature, corresponding Epic, otherwise no parent)
+        * Tag Bug with INCNumber
+        * Tag Bug with Application 
+        * Prioritize based on [SLA](SLA.md) criteria 
+        * Assign VSTS Bug to Iteration/Team/Team Manager if required by SLA
+        * Enter VSTS ticket number in ServiceNow Flex Field 4
+        * Change ServiceNow ticket status to Work Started  
+* Enhancements
+    * If enhancement requires more than 40hrs of development time, URF required, and Business Case Council approval required
+        * Request URF, attach to ticket assign to Jason Bouchard for review and submittal to BC council
+        * Once approved, VSTS Epic will be created from ServiceNow ticket
+    * If enhancement is less than 40hrs
+        * Create Feature, including acceptance criteria("definition of done")
+        * Tag Feature with ServiceNow ticket Number
+        * Tag Feature with Application
+        * If Feature part of existing Epic, link to parent Epic
+        * Enter VSTS ticket number in ServiceNow Flex Field 4
+        * Change SerivceNow ticket status to Work Started
 
 ## Non ServiceNow Ticket Requests(email, phone, etc)
 * Create VSTS ticket directly using above criteria
 
 ## VSTS Ticket Status Flow
 ### Features
-    * Active
-        * Requirements gathering or assigned to Iteration
-    * Resolved
-        * Feature deployed to UAT awaiting UAT approval from stake holder
-    * Closed
-        * Feature approved by stakeholder(s)
-        * Resolve corresponding ServiceNow ticket if one exists in tags
+* Active
+    * Requirements gathering or assigned to Iteration
+* Resolved
+    * Feature deployed to UAT awaiting UAT approval from stake holder
+* Closed
+    * Feature approved by stakeholder(s)
+    * Resolve corresponding ServiceNow ticket if one exists in tags
 ### User Stories(to be discussed?)
-    * Active - Assigned to current iteration
-    * Resolved - Developer Tested
-    * Closed - Tested in QA
+* Active - Assigned to current iteration
+* Resolved - Developer Tested
+* Closed - Tested in QA
 ### Defects
-    * Active - Assigned to current iteration
-    * Resolved - Developer verified
-    * Closed - Pushed to production, Resolve corresponding ServiceNow ticket if one exists in tags
+* Active - Assigned to current iteration
+* Resolved - Developer verified
+* Closed - Pushed to production, Resolve corresponding ServiceNow ticket if one exists in tags
 ### Issues(Operational Support not involving code changed - TBD)
 
 
