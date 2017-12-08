@@ -7,4 +7,3 @@
     * Prefer two reviewers
     * "is the code right?"
     * "is it the right code?"
-    
