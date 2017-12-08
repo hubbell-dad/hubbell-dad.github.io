@@ -10,4 +10,6 @@
 * [SLA Agreements](sla.md)
 * [Team Roles and Responsibilties](roles-responsibilities.md)
 * [Managing Work](managing-work.md)
+* Applications Documentation
+    * [Product Quotation Tool](pdq.md)
 

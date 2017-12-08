@@ -1,7 +1,7 @@
 # Managing Work(Work In Progress)
 
 ## Agile Process Definitions
-* Epics - Correspond to Business Cases or PDM Objectives - Owned by Executives,Rod,Jason
+* Epics - Correspond to Business Cases or PDM Objectives - Owned by Executives, Rod, Jason
 * Features - Customer Facing Deliverables - Owned by DAD Management
     * Always require a functional owner even if it crosses team boundries
 * User Stories - Owned By DAD teams to manage work for Features.
