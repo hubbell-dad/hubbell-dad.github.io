@@ -10,7 +10,7 @@
         * Corey Green
         * George Kolath
         * Linu Simon
-        * Hubbell India Development Team
+            * Hubbell India Development Team
 * Mark Decker - Manager Application Development
     * Responsibilties
         * New Applications
