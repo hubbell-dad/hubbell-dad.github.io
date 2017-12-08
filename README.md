@@ -12,4 +12,5 @@
 * [Managing Work](managing-work.md)
 * Applications Documentation
     * [Product Quotation Tool](pdq.md)
+    * [Wiegmann ETO Configurator Tool](wiegmann-eto-configurator-tool.md)
 
