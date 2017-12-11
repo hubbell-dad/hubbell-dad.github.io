@@ -12,9 +12,9 @@
 | Product Updates - Critical | 2hrs || Email when complete | DAD-Java/HUBS-STEP
 | Product Updates - Normal | 48hrs || Close Ticket When Complete | HUBS-STEP
 | Facet/Attribute Updates | 72hrs || Close Ticket When Complete | HUBS-STEP/DAD-Java
-| Defects - Critical||||
-| Defects - High||||
-| Defects - Medium/Low||||
+| Defects - Critical| ASAP - Special Build|||
+| Defects - High| Next Scheduled Build|||
+| Defects - Medium/Low| Normal Deployment|||
 | Enhancements||||
 
 
