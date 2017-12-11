@@ -24,7 +24,7 @@
 * Defects - Any unexpected funtional behavior
 * Critical(Content/Product) - Legal, Systemic, or Extremely Time Sensitive
 * Normal(Content/Product) - Product or Content not udpated as expected through normal process flow
-* Critical Defect - Must fix. An unexpected system behavior that causes failure, data corruption, or significant customer impact and there are no acceptable alternative methods to achieve required results.
-* High Defect - Consider fix. An unexpected system behavior that causes failure, data corruption, or significant customer impact and there are no acceptable alternative methods to achieve required results.. However, an acceptable alternative method exists to achieve required results.
+* Critical Defect - Must fix. An unexpected system behavior that causes failure, data corruption, or significant customer impact and there are no acceptable alternative methods to achieve required results. Special Deployment required.
+* High Defect - Consider fix. An unexpected system behavior that causes failure, data corruption, or significant customer impact and there are no acceptable alternative methods to achieve required results.. However, an acceptable alternative method exists to achieve required results. Required in next build.
 * Medium(default) - A defect that causes the system to produce incorrect, incomplete or inconsistent results.
 * Minor - A minor or cosmetic defect that has acceptable workarounds to achieve required results.
